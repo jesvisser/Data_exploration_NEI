@@ -28,7 +28,6 @@ NEI_coal <- NEI %>%
 
 
 # Make a plot showing the total PM2.5 emission from all coal combustion-related sources from 1999–2008
-# (use the base plotting system)
 png(filename = "plot4.png")
 NEI_coal %>% 
   ggplot(aes(year, total_emissions)) +

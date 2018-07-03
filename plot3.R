@@ -16,8 +16,7 @@ SCC <- readRDS("Source_Classification_Code.rds")
 # Which have seen increases in emissions from 1999–2008? 
 
 
-
-#Data preparations
+# Data preparations
 NEI_Baltimore_City <- NEI %>%
   filter(fips == "24510") %>%
   group_by(type, year) %>%

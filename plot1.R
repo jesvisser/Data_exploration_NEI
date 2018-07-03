@@ -1,4 +1,4 @@
-# Please set your working directory and load these libraries
+# Please set your working directory and load library
 getwd()
 dir()
 library(dplyr)

@@ -13,7 +13,7 @@ SCC <- readRDS("Source_Classification_Code.rds")
 # Have total emissions from PM2.5 decreased in the Baltimore City, Maryland fips=="24510" from 1999 to 2008?
 
 
-#Data preparations
+# Data preparations
 NEI_Baltimore_City <- NEI %>%
   filter(fips == "24510") %>%
   group_by(year) %>%
